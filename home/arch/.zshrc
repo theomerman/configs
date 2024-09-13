@@ -104,3 +104,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# Load zellij
+if [[ -z $ZELLIJ ]]; then
+    export ZELLIJ=1
+    zellij
+fi
