@@ -1,0 +1,5 @@
+layout {
+    tab name="nvim" focus=true {
+        pane
+    }
+}
