@@ -501,7 +501,7 @@ keybinds clear-defaults=true {
 // Default: "work"
 //
 
-// default_layout "work_everforest"
+default_layout "my_default"
 
 // Choose the mode that zellij uses when starting up.
 // Default: normal
