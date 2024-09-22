@@ -11,6 +11,6 @@ return {
       --   bright_green = "#d7ff00",
       -- },
     })
-    require("onedark").load()
+    -- require("onedark").load()
   end,
 }
