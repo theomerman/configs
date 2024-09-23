@@ -2,6 +2,9 @@
 ## install packages ##
 pacman -S --noconfirm xf86-video-amdgpu mesa vulkan-radeon plasma-meta git discord go networkmanager vim neovim wezterm zellij dolphin zsh docker luarocks lazygit fd ripgrep nodejs xclip npm python-neovim jdk-openjdk fastfetch
 
+## Enable docker ##
+sudo systemctl enable docker.service
+
 ## add user to basic groups ##
 usermod -aG docker,lp,wheel arch
   
