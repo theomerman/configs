@@ -21,9 +21,10 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 git clone https://github.com/LazyVim/starter ~/.config/nvim
 
 ## clone configs ##
+mkdir ~/setup
 git clone https://github.com/theomerman/configs ~/setup
-cd ~/setup/configs/home/arch/
-cp ./ ~/ -r
+cd ~/configs/home/
+cp ~/setup/configs/home /home
 
 ## apply configs ##
 # cp configs/home/arch/. ~/ -r
@@ -32,6 +33,6 @@ cp ./ ~/ -r
 # echo "\n zsh is in /usr/bin/zsh \n"
 # chsh
 
-systemctl enable --now sddm.service
+# systemctl enable --now sddm.service
 
 echo " download fonts from https://github.com/ryanoasis/nerd-fonts/releases/"
