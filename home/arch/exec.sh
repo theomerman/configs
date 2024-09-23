@@ -1,6 +1,4 @@
 ### Basic archlinux install config file, replace "arch" with your username ### 
-## install packages ##
-## sudo pacman -S  xf86-video-amdgpu mesa vulkan-radeon plasma-meta git discord go networkmanager vim neovim wezterm zellij dolphin zsh docker luarocks lazygit fd ripgrep nodejs xclip npm python-neovim jdk-openjdk fastfetch
 
 ## Enable docker ##
 sudo systemctl enable docker.service
@@ -25,13 +23,11 @@ git clone https://github.com/LazyVim/starter ~/.config/nvim
 # git clone https://github.com/theomerman/configs ~/setup
 cp ../ /home -r
 
-## apply configs ##
-# cp configs/home/arch/. ~/ -r
-
-## changing shell ##
+## changing shell (optional) -> oh-my-zsh makes this change ##
 # echo "\n zsh is in /usr/bin/zsh \n"
 # chsh
 
-# systemctl enable --now sddm.service
+## enable desktop environment (optional) ##
+systemctl enable --now sddm.service
 
 echo " download fonts from https://github.com/ryanoasis/nerd-fonts/releases/"
