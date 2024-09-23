@@ -18,13 +18,12 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
 ## clone lazyvim ##
-git clone https://github.com/LazyVim/starter $USER_HOME/.config/nvim
+git clone https://github.com/LazyVim/starter ~/.config/nvim
 
 ## clone configs ##
-mkdir $USER_HOME/setup
-git clone https://github.com/theomerman/configs $USER_HOME/setup
-cd $USER_HOME/configs/home/
-cp $USER_HOME/setup/configs/home /home
+
+git clone https://github.com/theomerman/configs ~/configs
+cp ~/configs/home/arch /home -r
 
 ## apply configs ##
 # cp configs/home/arch/. ~/ -r
