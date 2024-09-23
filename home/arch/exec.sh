@@ -22,7 +22,7 @@ git clone https://github.com/LazyVim/starter ~/.config/nvim
 
 ## clone configs ##
 
-git clone https://github.com/theomerman/configs ~/configs
+git clone https://github.com/theomerman/configs ~/setup
 cp ~/setup/home/arch /home -r
 
 ## apply configs ##
