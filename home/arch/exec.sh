@@ -29,8 +29,8 @@ cp ./ ~/ -r
 # cp configs/home/arch/. ~/ -r
 
 ## changing shell ##
-echo "\n zsh is in /usr/bin/zsh \n"
-chsh
+# echo "\n zsh is in /usr/bin/zsh \n"
+# chsh
 
 systemctl enable --now sddm.service
 
