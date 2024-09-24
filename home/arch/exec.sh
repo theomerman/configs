@@ -27,6 +27,23 @@ cp ../ /home -r
 # echo "\n zsh is in /usr/bin/zsh \n"
 # chsh
 
+## Install yay ##
+git clone https://aur.archlinux.org/yay.git ~/Documents/yay
+cd ~/Documents/yay
+makepkg ~/Documents/yay/ -si
+rm -rf ~/Documents/yay
+
+## Install browser ##
+yay -S microsoft-edge-stable-bin
+
+## Add nerd font ##
+wget https://github.com/microsoft/cascadia-code/releases/download/v2404.23/CascadiaCode-2404.23.zip
+mkdir -p ~/.fonts/CascadiaCode
+unzip CascadiaCode-2404.23.zip -d ~/.fonts/CascadiaCode
+rm CascadiaCode-2404.23.zip
+
+
+
 ## enable desktop environment (optional) ##
 systemctl enable --now sddm.service
 
