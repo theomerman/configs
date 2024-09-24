@@ -42,6 +42,13 @@ mkdir -p ~/.fonts/CascadiaCode
 unzip CascadiaCode-2404.23.zip -d ~/.fonts/CascadiaCode
 rm CascadiaCode-2404.23.zip
 
+## Install Fonts ##
+wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/CascadiaCode.zip
+
+mkdir -p ~/.fonts/CascadiaCove
+unzip CascadiaCode.zip -d ~/.fonts/CascadiaCove
+rm CascadiaCode.zip
+
 
 
 ## enable desktop environment (optional) ##
