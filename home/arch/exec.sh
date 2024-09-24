@@ -8,7 +8,7 @@ sudo systemctl enable docker.service
   
 ## install neovim for npm ##
 sudo npm i -g neovim
-
+sudo npm i -g @angular/cli
 ## clone oh-my-zsh ##
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
