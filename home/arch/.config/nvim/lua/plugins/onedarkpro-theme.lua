@@ -6,13 +6,13 @@ return {
   config = function()
     require("onedarkpro").setup({
 
-      colors = {
-        -- red = "#ff5656",
-        green = "#43ff00",
-        purple = "#ff00ff",
-        orange = "#ff8700",
-        yellow = "#ffe690",
-      },
+      -- colors = {
+      --   -- red = "#ff5656",
+      --   green = "#43ff00",
+      --   purple = "#ff00ff",
+      --   orange = "#ff8700",
+      --   yellow = "#ffe690",
+      -- },
       styles = {
         comments = "italic",
       },
