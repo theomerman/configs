@@ -13,6 +13,6 @@ return {
       terminal_colors = true,
     })
     -- vim.cmd("colorscheme cyberdream") -- set the colorscheme
-    require("cyberdream").load()
+    -- require("cyberdream").load()
   end,
 }
