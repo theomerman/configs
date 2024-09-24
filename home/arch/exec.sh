@@ -49,7 +49,7 @@ mkdir -p ~/.fonts/CascadiaCove
 unzip CascadiaCode.zip -d ~/.fonts/CascadiaCove
 rm CascadiaCode.zip
 
-
+## wayland sense -0.38 ##
 
 ## enable desktop environment (optional) ##
 systemctl enable --now sddm.service
